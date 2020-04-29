@@ -10,6 +10,7 @@ Fix the bugs and implement functions.
 
 - `css/style.css` has some bugs that prevent it from working properly, and is missing implementation. _NOTE: The provided attributes (everything between the brackets {}) is correct._
 
-## Intended Output
+## Expected Output
 
 ![Ditto Output](output.png)
+_Ditto says hello!_
