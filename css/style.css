@@ -1,4 +1,5 @@
-.body {
+/* body is html tag not a class name, should use name directly */
+body {
     width: 100%;
     height: 100%;
     padding: 0;
@@ -6,10 +7,16 @@
     background: black;
 }
 
-.container {
-    display: block;
+/* container is id based html file not a class name, should use #container */
+/* Change the display to make the container content centered*/
+#container {
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container > image {
+/* image's html tag is img  */
+#container > img {
     display: block;
 }
